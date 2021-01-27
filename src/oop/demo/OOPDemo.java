@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package oop.demo;
 
-/**
- *
- * @author devil
- */
+
 public class OOPDemo {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+   //Student s1 = new Student(113,"Robin");
+  // s1.getAddress();
+  RationalNumber a = new RationalNumber(10,3);
+  RationalNumber b = new RationalNumber(2,3);
+  RationalNumber c = a.add(b);
+  a.print();
+  b.print();
+  c.print();
+        
+       
+       // System.out.println("Id:");
     }
     
 }
